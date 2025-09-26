@@ -1,0 +1,107 @@
+body 
+{
+     font-family: 'Open Sans', sans-serif;
+     color: #333;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.Page
+{
+     max-width: 1000px;
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     background: white;
+     border-radius: 20px;
+     overflow: hidden;
+     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.inside
+{
+     flex: 1;
+     min-width: 300px;
+     padding: 60px;
+}
+
+.Main_title
+{
+     font-family: 'Crete Round', monospace;
+     font-size: 44px;
+     font-weight: bold;
+     color: #060c31;
+     margin-bottom: 10px;
+     letter-spacing: 1px;
+}
+        
+.Header
+{
+     font-family: 'Crete Round-Regular', monospace;
+     font-size: 58px;
+     font-weight: 600;
+     line-height: 1.2;
+     margin-bottom: 25px;
+     color: #060c31;
+}
+
+.description
+{
+     font-family: 'Lato', monospace;
+     font-size: 15px;
+     font-weight: bold;
+     line-height: 2;
+     margin-bottom: 25px;
+     color: #060c31;
+}
+
+.buttons
+{
+    display: flex;
+    gap: 16px;
+}
+.btn
+{
+    font-family: 'Lato', monospace;
+    font-weight: normal;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 30px;
+    line-height: 40px;
+    border: none;
+    font-size: 17px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.started_button
+{
+    color: #fff;
+    background-color: #233fe1;
+    box-shadow: none;
+}
+
+.started_button:hover
+{
+    background-color: #33cf;
+    transition: all .3s ease;
+    color: #fff
+}
+
+.create_button
+{
+     background: transparent;
+     color: #000000;
+     border: 1px solid #f99;
+}
+
+.create_button:hover
+{
+    background-color: #f996;
+    transition: all .3s ease;
+    color: #000000
+}

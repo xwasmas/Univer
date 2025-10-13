@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/Lato-Regular.ttf') format('ttf'),
+  font-weight: 400; /* Normal */
+  font-style: normal;
+  font-display: swap; /* Оптимизация загрузки */
+}
+
+/* Italic */
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/Lato-Italic.ttf') format('ttf'),
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/Lato-Bold.ttf') format('ttf'),
+  font-weight: 700; /* Bold */
+  font-style: normal;
+  font-display: swap;
+}
